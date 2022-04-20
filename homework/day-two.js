@@ -46,14 +46,15 @@ function getFirstElement(givenArray) {
    //    return givenArray[0]   
    // }
    for (let index = 0; index <= givenArray.length; index++){
-      firstElement = givenArray[index]
-      console.log(firstElement)
+      if (givenArray.indexOf(index <= 0)) {
+         firstconsole.log(givenArray[0])
+      }
       // if (givenArray[index] === true) {
       //   firstElement = givenArray[0]
       // }
    }
 
-   return firstElement
+   // return firstElement
 }
 
 const firstElement = getFirstElement(booleanArray)
